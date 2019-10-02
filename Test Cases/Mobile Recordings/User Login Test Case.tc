@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Material Info User Login</description>
+   <name>User Login Test Case</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0d2f37ec-7a93-4043-b5dc-82f875efba0e</testCaseGuid>
+   <variable>
+      <defaultValue>'user@email.ccom'</defaultValue>
+      <description></description>
+      <id>b4549f0d-9e5b-479b-97cc-c44b8025f164</id>
+      <masked>false</masked>
+      <name>uEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>'user123'</defaultValue>
+      <description></description>
+      <id>7e6c6343-618b-428f-8fa0-3b9c3d36831c</id>
+      <masked>false</masked>
+      <name>uPassword</name>
+   </variable>
+</TestCaseEntity>
