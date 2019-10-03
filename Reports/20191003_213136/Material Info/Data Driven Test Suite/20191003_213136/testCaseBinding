@@ -1,0 +1,2 @@
+{"testCaseName":"Test Cases/Mobile Recordings/User Login Test Case - Iteration 1","testCaseId":"Test Cases/Mobile Recordings/User Login Test Case","bindedValues":{"uEmail":"\u0027user@email.com\u0027","uPassword":"\u0027user123\u0027"}}
+{"testCaseName":"Test Cases/Mobile Recordings/User Login Test Case - Iteration 2","testCaseId":"Test Cases/Mobile Recordings/User Login Test Case","bindedValues":{"uEmail":"\u0027user@anoather.com\u0027","uPassword":"\u0027user\u0027"}}

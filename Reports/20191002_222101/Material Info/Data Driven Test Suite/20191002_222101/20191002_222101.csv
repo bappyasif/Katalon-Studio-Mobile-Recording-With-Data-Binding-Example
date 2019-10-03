@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Data Driven Test Suite,,Using Excel File As Input Strem For Test Steps.,,2019-10-02 22:21:04,2019-10-02 22:22:18,1m - 14.029s,INCOMPLETE
+,,,,,,,
+Test Cases/Mobile Recordings/User Login Test Case,,Material Info User Login,,2019-10-02 22:21:05,2019-10-02 22:21:45,40.344s,PASSED
+"startApplication(""G:\coding necessary items\Some APK\MaterialLoginExample.apk"", true)",,,,2019-10-02 22:21:05,2019-10-02 22:21:35,29.574s,PASSED
+"setText(findTestObject(""Material Login/android.widget.EditText0""), uEmail, 0)",,,,2019-10-02 22:21:35,2019-10-02 22:21:36,1.156s,PASSED
+"setText(findTestObject(""Material Login/android.widget.EditText0 (1)""), uPassword, 0)",,,,2019-10-02 22:21:36,2019-10-02 22:21:37,1.261s,PASSED
+"tap(findTestObject(""Material Login/android.widget.Button0 - LOGIN""), 0)",,,,2019-10-02 22:21:37,2019-10-02 22:21:40,2.679s,PASSED
+"tap(findTestObject(""Material Login/android.widget.ImageView0""), 0)",,,,2019-10-02 22:21:40,2019-10-02 22:21:41,1.494s,PASSED
+closeApplication(),,,,2019-10-02 22:21:41,2019-10-02 22:21:45,3.830s,PASSED
+,,,,,,,
+Test Cases/Mobile Recordings/User Login Test Case,,Material Info User Login,,2019-10-02 22:21:45,2019-10-02 22:22:18,33.223s,PASSED
+"startApplication(""G:\coding necessary items\Some APK\MaterialLoginExample.apk"", true)",,,,2019-10-02 22:21:45,2019-10-02 22:22:09,23.769s,PASSED
+"setText(findTestObject(""Material Login/android.widget.EditText0""), uEmail, 0)",,,,2019-10-02 22:22:09,2019-10-02 22:22:10,1.099s,PASSED
+"setText(findTestObject(""Material Login/android.widget.EditText0 (1)""), uPassword, 0)",,,,2019-10-02 22:22:10,2019-10-02 22:22:11,1.281s,PASSED
+"tap(findTestObject(""Material Login/android.widget.Button0 - LOGIN""), 0)",,,,2019-10-02 22:22:11,2019-10-02 22:22:14,2.416s,PASSED
+"tap(findTestObject(""Material Login/android.widget.ImageView0""), 0)",,,,2019-10-02 22:22:14,2019-10-02 22:22:15,1.305s,PASSED
+closeApplication(),,,,2019-10-02 22:22:15,2019-10-02 22:22:18,3.341s,PASSED

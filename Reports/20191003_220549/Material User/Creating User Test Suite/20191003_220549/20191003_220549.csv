@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Creating User Test Suite,,With Data-Binding And Exporting Result To Katalon Analytics.,,2019-10-03 22:05:59,2019-10-03 22:07:24,1m - 24.775s,INCOMPLETE
+,,,,,,,
+Test Cases/Mobile Recordings/Create User Test Case,,Creating User For Material Login App With Data Sheet.,,2019-10-03 22:06:00,2019-10-03 22:06:44,43.626s,PASSED
+"startApplication(""G:\coding necessary items\Some APK\MaterialLoginExample.apk"", true)",,,,2019-10-03 22:06:00,2019-10-03 22:06:27,26.075s,PASSED
+"tap(findTestObject(""Create User/android.widget.TextView0 - No account yet Create one""), 0)",,,,2019-10-03 22:06:27,2019-10-03 22:06:28,1.620s,PASSED
+"setText(findTestObject(""Create User/android.widget.EditText0""), user_name, 0)",,,,2019-10-03 22:06:28,2019-10-03 22:06:30,1.381s,PASSED
+"setText(findTestObject(""Create User/android.widget.EditText0 (1)""), user_address, 0)",,,,2019-10-03 22:06:30,2019-10-03 22:06:31,1.287s,PASSED
+"setText(findTestObject(""Create User/android.widget.EditText0 (2)""), user_email, 0)",,,,2019-10-03 22:06:31,2019-10-03 22:06:32,1.256s,PASSED
+"setText(findTestObject(""Create User/android.widget.EditText0 (3)""), mobile_number, 0)",,,,2019-10-03 22:06:32,2019-10-03 22:06:33,1.311s,PASSED
+"setText(findTestObject(""Create User/android.widget.EditText0 (4)""), user_password, 0)",,,,2019-10-03 22:06:33,2019-10-03 22:06:35,1.232s,PASSED
+"setText(findTestObject(""Create User/android.widget.EditText0 (5)""), reenter_password, 0)",,,,2019-10-03 22:06:35,2019-10-03 22:06:36,1.326s,PASSED
+"tap(findTestObject(""Create User/android.widget.Button0 - CREATE ACCOUNT""), 0)",,,,2019-10-03 22:06:36,2019-10-03 22:06:39,2.686s,PASSED
+"tap(findTestObject(""Create User/android.widget.ImageView0""), 0)",,,,2019-10-03 22:06:39,2019-10-03 22:06:40,1.332s,PASSED
+closeApplication(),,,,2019-10-03 22:06:40,2019-10-03 22:06:44,3.697s,PASSED
+,,,,,,,
+Test Cases/Mobile Recordings/Create User Test Case,,Creating User For Material Login App With Data Sheet.,,2019-10-03 22:06:44,2019-10-03 22:07:24,40.536s,PASSED
+"startApplication(""G:\coding necessary items\Some APK\MaterialLoginExample.apk"", true)",,,,2019-10-03 22:06:44,2019-10-03 22:07:07,23.538s,PASSED
+"tap(findTestObject(""Create User/android.widget.TextView0 - No account yet Create one""), 0)",,,,2019-10-03 22:07:07,2019-10-03 22:07:09,1.763s,PASSED
+"setText(findTestObject(""Create User/android.widget.EditText0""), user_name, 0)",,,,2019-10-03 22:07:09,2019-10-03 22:07:10,1.240s,PASSED
+"setText(findTestObject(""Create User/android.widget.EditText0 (1)""), user_address, 0)",,,,2019-10-03 22:07:10,2019-10-03 22:07:12,1.318s,PASSED
+"setText(findTestObject(""Create User/android.widget.EditText0 (2)""), user_email, 0)",,,,2019-10-03 22:07:12,2019-10-03 22:07:13,1.378s,PASSED
+"setText(findTestObject(""Create User/android.widget.EditText0 (3)""), mobile_number, 0)",,,,2019-10-03 22:07:13,2019-10-03 22:07:14,1.253s,PASSED
+"setText(findTestObject(""Create User/android.widget.EditText0 (4)""), user_password, 0)",,,,2019-10-03 22:07:14,2019-10-03 22:07:16,1.263s,PASSED
+"setText(findTestObject(""Create User/android.widget.EditText0 (5)""), reenter_password, 0)",,,,2019-10-03 22:07:16,2019-10-03 22:07:17,1.293s,PASSED
+"tap(findTestObject(""Create User/android.widget.Button0 - CREATE ACCOUNT""), 0)",,,,2019-10-03 22:07:17,2019-10-03 22:07:19,2.658s,PASSED
+"tap(findTestObject(""Create User/android.widget.ImageView0""), 0)",,,,2019-10-03 22:07:19,2019-10-03 22:07:21,1.379s,PASSED
+closeApplication(),,,,2019-10-03 22:07:21,2019-10-03 22:07:24,3.412s,PASSED

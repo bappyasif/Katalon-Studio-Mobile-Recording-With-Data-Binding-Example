@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Creating User For Material Login App With Data Sheet.</description>
+   <name>Create User Test Case</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3505a074-a871-4c68-a6ac-49e1acd97c14</testCaseGuid>
+   <variable>
+      <defaultValue>'user'</defaultValue>
+      <description></description>
+      <id>dec06aa7-13ca-4583-8457-763ba6bb18ca</id>
+      <masked>false</masked>
+      <name>user_name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d698ac5e-8395-4a4d-8d30-125543067f46</id>
+      <masked>false</masked>
+      <name>user_address</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8955b564-809c-4a25-8c4c-9cb8694680cc</id>
+      <masked>false</masked>
+      <name>user_email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d78402ff-5673-462c-8716-4631d50b9444</id>
+      <masked>false</masked>
+      <name>mobile_number</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fde7f69b-8c26-4fa1-a107-a5ce7cb6d9d3</id>
+      <masked>false</masked>
+      <name>user_password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5a6271eb-09fe-442a-875d-30111f463731</id>
+      <masked>false</masked>
+      <name>reenter_password</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Creating User Test Suite" time="84" tests="2" failures="0" errors="0">
+    <testsuite name="Creating User Test Suite" tests="2" failures="0" errors="0" time="84" timestamp="2019-10-03 22:05:59" hostname="BaPpY - 192.168.0.108" id="Test Suites/Material User/Creating User Test Suite">
+        <properties>
+            <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 7.1.1)"/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="G:\\Katalon Studio\\Katalon Workspace\\Example Project Mobile Recording\\Example Project Mobile Recordings\\Reports\\20191003_220549\\Material User\\Creating User Test Suite\\20191003_220549"/>
+            <property name="logFiles" value="G:\\Katalon Studio\\Katalon Workspace\\Example Project Mobile Recording\\Example Project Mobile Recordings\\Reports\\20191003_220549\\Material User\\Creating User Test Suite\\20191003_220549\\appium.log, G:\\Katalon Studio\\Katalon Workspace\\Example Project Mobile Recording\\Example Project Mobile Recordings\\Reports\\20191003_220549\\Material User\\Creating User Test Suite\\20191003_220549\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="BaPpY - 192.168.0.108"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="appiumServerStatus" value="{\&quot;status\&quot;:0,\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.12.1\&quot;}},\&quot;sessionId\&quot;:null}"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+            <property name="deviceOS" value="Android"/>
+            <property name="appiumVersion" value="1.12.1"/>
+            <property name="deviceModel" value="Android SDK built for x86"/>
+            <property name="hostAddress" value="192.168.0.108"/>
+            <property name="deviceManufacturer" value="Google"/>
+            <property name="deviceId" value="emulator-5554"/>
+            <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 7.1.1)"/>
+            <property name="deviceOSVersion" value="7.1.1"/>
+        </properties>
+        <testcase name="Test Cases/Mobile Recordings/Create User Test Case" classname="Test Cases/Mobile Recordings/Create User Test Case" status="PASSED">
+            <system-out>2019-10-03 22:06:00 - [TEST_CASE][PASSED] - Test Cases/Mobile Recordings/Create User Test Case: Test Cases/Mobile Recordings/Create User Test Case&#xD;
+&#xD;
+2019-10-03 22:06:00 - [TEST_STEP][PASSED] - startApplication("G:\coding necessary items\Some APK\MaterialLoginExample.apk", true): Started app at: 'G:\coding necessary items\Some APK\MaterialLoginExample.apk'&#xD;
+&#xD;
+2019-10-03 22:06:04 - [MESSAGE][INFO] - Appium server started on port 54,441&#xD;
+&#xD;
+2019-10-03 22:06:27 - [MESSAGE][PASSED] - Started app at: 'G:\coding necessary items\Some APK\MaterialLoginExample.apk'&#xD;
+&#xD;
+2019-10-03 22:06:27 - [TEST_STEP][PASSED] - tap(findTestObject("Create User/android.widget.TextView0 - No account yet Create one"), 0): Tapped on element 'Object Repository/Create User/android.widget.TextView0 - No account yet Create one'&#xD;
+&#xD;
+2019-10-03 22:06:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-10-03 22:06:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Create User/android.widget.TextView0 - No account yet Create one'&#xD;
+&#xD;
+2019-10-03 22:06:28 - [TEST_STEP][PASSED] - setText(findTestObject("Create User/android.widget.EditText0"), user_name, 0): Text 'User' has been set to element 'Object Repository/Create User/android.widget.EditText0'&#xD;
+&#xD;
+2019-10-03 22:06:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-10-03 22:06:30 - [MESSAGE][PASSED] - Text 'User' has been set to element 'Object Repository/Create User/android.widget.EditText0'&#xD;
+&#xD;
+2019-10-03 22:06:30 - [TEST_STEP][PASSED] - setText(findTestObject("Create User/android.widget.EditText0 (1)"), user_address, 0): Text 'address123' has been set to element 'Object Repository/Create User/android.widget.EditText0 (1)'&#xD;
+&#xD;
+2019-10-03 22:06:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-10-03 22:06:31 - [MESSAGE][PASSED] - Text 'address123' has been set to element 'Object Repository/Create User/android.widget.EditText0 (1)'&#xD;
+&#xD;
+2019-10-03 22:06:31 - [TEST_STEP][PASSED] - setText(findTestObject("Create User/android.widget.EditText0 (2)"), user_email, 0): Text 'user@email.com' has been set to element 'Object Repository/Create User/android.widget.EditText0 (2)'&#xD;
+&#xD;
+2019-10-03 22:06:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-10-03 22:06:32 - [MESSAGE][PASSED] - Text 'user@email.com' has been set to element 'Object Repository/Create User/android.widget.EditText0 (2)'&#xD;
+&#xD;
+2019-10-03 22:06:32 - [TEST_STEP][PASSED] - setText(findTestObject("Create User/android.widget.EditText0 (3)"), mobile_number, 0): Text '154611313' has been set to element 'Object Repository/Create User/android.widget.EditText0 (3)'&#xD;
+&#xD;
+2019-10-03 22:06:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-10-03 22:06:33 - [MESSAGE][PASSED] - Text '154611313' has been set to element 'Object Repository/Create User/android.widget.EditText0 (3)'&#xD;
+&#xD;
+2019-10-03 22:06:33 - [TEST_STEP][PASSED] - setText(findTestObject("Create User/android.widget.EditText0 (4)"), user_password, 0): Text 'user123' has been set to element 'Object Repository/Create User/android.widget.EditText0 (4)'&#xD;
+&#xD;
+2019-10-03 22:06:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-10-03 22:06:35 - [MESSAGE][PASSED] - Text 'user123' has been set to element 'Object Repository/Create User/android.widget.EditText0 (4)'&#xD;
+&#xD;
+2019-10-03 22:06:35 - [TEST_STEP][PASSED] - setText(findTestObject("Create User/android.widget.EditText0 (5)"), reenter_password, 0): Text 'user123' has been set to element 'Object Repository/Create User/android.widget.EditText0 (5)'&#xD;
+&#xD;
+2019-10-03 22:06:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-10-03 22:06:36 - [MESSAGE][PASSED] - Text 'user123' has been set to element 'Object Repository/Create User/android.widget.EditText0 (5)'&#xD;
+&#xD;
+2019-10-03 22:06:36 - [TEST_STEP][PASSED] - tap(findTestObject("Create User/android.widget.Button0 - CREATE ACCOUNT"), 0): Tapped on element 'Object Repository/Create User/android.widget.Button0 - CREATE ACCOUNT'&#xD;
+&#xD;
+2019-10-03 22:06:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-10-03 22:06:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Create User/android.widget.Button0 - CREATE ACCOUNT'&#xD;
+&#xD;
+2019-10-03 22:06:39 - [TEST_STEP][PASSED] - tap(findTestObject("Create User/android.widget.ImageView0"), 0): Tapped on element 'Object Repository/Create User/android.widget.ImageView0'&#xD;
+&#xD;
+2019-10-03 22:06:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-10-03 22:06:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Create User/android.widget.ImageView0'&#xD;
+&#xD;
+2019-10-03 22:06:40 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully&#xD;
+&#xD;
+2019-10-03 22:06:44 - [MESSAGE][PASSED] - Close app successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Mobile Recordings/Create User Test Case" classname="Test Cases/Mobile Recordings/Create User Test Case" status="PASSED">
+            <system-out>2019-10-03 22:06:44 - [TEST_CASE][PASSED] - Test Cases/Mobile Recordings/Create User Test Case: Test Cases/Mobile Recordings/Create User Test Case&#xD;
+&#xD;
+2019-10-03 22:06:44 - [TEST_STEP][PASSED] - startApplication("G:\coding necessary items\Some APK\MaterialLoginExample.apk", true): Started app at: 'G:\coding necessary items\Some APK\MaterialLoginExample.apk'&#xD;
+&#xD;
+2019-10-03 22:06:47 - [MESSAGE][INFO] - Appium server started on port 54,656&#xD;
+&#xD;
+2019-10-03 22:07:07 - [MESSAGE][PASSED] - Started app at: 'G:\coding necessary items\Some APK\MaterialLoginExample.apk'&#xD;
+&#xD;
+2019-10-03 22:07:07 - [TEST_STEP][PASSED] - tap(findTestObject("Create User/android.widget.TextView0 - No account yet Create one"), 0): Tapped on element 'Object Repository/Create User/android.widget.TextView0 - No account yet Create one'&#xD;
+&#xD;
+2019-10-03 22:07:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-10-03 22:07:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Create User/android.widget.TextView0 - No account yet Create one'&#xD;
+&#xD;
+2019-10-03 22:07:09 - [TEST_STEP][PASSED] - setText(findTestObject("Create User/android.widget.EditText0"), user_name, 0): Text 'User02' has been set to element 'Object Repository/Create User/android.widget.EditText0'&#xD;
+&#xD;
+2019-10-03 22:07:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-10-03 22:07:10 - [MESSAGE][PASSED] - Text 'User02' has been set to element 'Object Repository/Create User/android.widget.EditText0'&#xD;
+&#xD;
+2019-10-03 22:07:10 - [TEST_STEP][PASSED] - setText(findTestObject("Create User/android.widget.EditText0 (1)"), user_address, 0): Text 'address45678' has been set to element 'Object Repository/Create User/android.widget.EditText0 (1)'&#xD;
+&#xD;
+2019-10-03 22:07:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-10-03 22:07:12 - [MESSAGE][PASSED] - Text 'address45678' has been set to element 'Object Repository/Create User/android.widget.EditText0 (1)'&#xD;
+&#xD;
+2019-10-03 22:07:12 - [TEST_STEP][PASSED] - setText(findTestObject("Create User/android.widget.EditText0 (2)"), user_email, 0): Text 'user@another.com' has been set to element 'Object Repository/Create User/android.widget.EditText0 (2)'&#xD;
+&#xD;
+2019-10-03 22:07:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-10-03 22:07:13 - [MESSAGE][PASSED] - Text 'user@another.com' has been set to element 'Object Repository/Create User/android.widget.EditText0 (2)'&#xD;
+&#xD;
+2019-10-03 22:07:13 - [TEST_STEP][PASSED] - setText(findTestObject("Create User/android.widget.EditText0 (3)"), mobile_number, 0): Text '45645213' has been set to element 'Object Repository/Create User/android.widget.EditText0 (3)'&#xD;
+&#xD;
+2019-10-03 22:07:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-10-03 22:07:14 - [MESSAGE][PASSED] - Text '45645213' has been set to element 'Object Repository/Create User/android.widget.EditText0 (3)'&#xD;
+&#xD;
+2019-10-03 22:07:14 - [TEST_STEP][PASSED] - setText(findTestObject("Create User/android.widget.EditText0 (4)"), user_password, 0): Text 'user1234' has been set to element 'Object Repository/Create User/android.widget.EditText0 (4)'&#xD;
+&#xD;
+2019-10-03 22:07:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-10-03 22:07:16 - [MESSAGE][PASSED] - Text 'user1234' has been set to element 'Object Repository/Create User/android.widget.EditText0 (4)'&#xD;
+&#xD;
+2019-10-03 22:07:16 - [TEST_STEP][PASSED] - setText(findTestObject("Create User/android.widget.EditText0 (5)"), reenter_password, 0): Text 'user1234' has been set to element 'Object Repository/Create User/android.widget.EditText0 (5)'&#xD;
+&#xD;
+2019-10-03 22:07:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-10-03 22:07:17 - [MESSAGE][PASSED] - Text 'user1234' has been set to element 'Object Repository/Create User/android.widget.EditText0 (5)'&#xD;
+&#xD;
+2019-10-03 22:07:17 - [TEST_STEP][PASSED] - tap(findTestObject("Create User/android.widget.Button0 - CREATE ACCOUNT"), 0): Tapped on element 'Object Repository/Create User/android.widget.Button0 - CREATE ACCOUNT'&#xD;
+&#xD;
+2019-10-03 22:07:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-10-03 22:07:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Create User/android.widget.Button0 - CREATE ACCOUNT'&#xD;
+&#xD;
+2019-10-03 22:07:19 - [TEST_STEP][PASSED] - tap(findTestObject("Create User/android.widget.ImageView0"), 0): Tapped on element 'Object Repository/Create User/android.widget.ImageView0'&#xD;
+&#xD;
+2019-10-03 22:07:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-10-03 22:07:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Create User/android.widget.ImageView0'&#xD;
+&#xD;
+2019-10-03 22:07:21 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully&#xD;
+&#xD;
+2019-10-03 22:07:24 - [MESSAGE][PASSED] - Close app successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-10-03 22:05:59 - [TEST_SUITE][INCOMPLETE] - Creating User Test Suite: null</system-out>
+        <system-err>2019-10-03 22:05:59 - [TEST_SUITE][INCOMPLETE] - Creating User Test Suite: null</system-err>
+    </testsuite>
+</testsuites>
